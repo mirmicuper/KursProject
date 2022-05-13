@@ -1,0 +1,34 @@
+.menu a {
+    color: black;
+}
+.third_block {
+    height: 860px;
+    background-color: #033037;
+}
+.third_block .h3 {
+    padding-top: 50px;
+    margin-bottom: 150px;
+    font-size: 60px;
+    text-align: center;
+}
+.third_block h3, .third_block h2 {
+    color: #fff;
+}
+.container {
+    margin-top: 50px;
+    display: grid;
+    align-self: center;
+    justify-content: stretch;
+    grid-template-areas: 
+    "m h1"
+    "m h2"
+    "m h3";
+}
+
+.container {
+    font-size: 30px;
+    align-self: center;
+}
+.container iframe {
+    margin-left: 50px;
+}

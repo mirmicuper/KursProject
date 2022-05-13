@@ -1,0 +1,29 @@
+body {
+    background-color: #033037;
+    color: #fff;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px;
+    column-gap: 100px;
+}
+.container p {
+    align-self: center;
+    font-size: 30px;
+}
+.second_block h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+.second_block {
+    height: 700px;
+}
+.container img {
+    margin-top: 120px;
+    width: 400px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buyTour.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/header.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first_block">
+        <header class="header">
+            <div class="logo">
+                <a href="/mainPage.html"><img src="./images/icon_invers.svg" alt="logo"></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <a href="/mainPage.html"><li>Главная</li></a>
+                    <a href="/news.html"><li>Новости</li></a>
+                    <a href="/contacts.html"><li>Контакты</li></a>
+                    <a href="/aboutUs.html"><li>О нас</li></a>
+                    <a href="#"><li>Заказать</li></a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="second_block">
+        <div class="block">
+            <form>
+                <h2>Заказ экскурсии</h2>
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <label for="tours">Выбор экскурсии и даты
+                <select id="tours">
+                    <option value="">Лидский замок</option>
+                    <option value="">Новогодняя лида</option>
+                    <option value="">Lidbeer</option>
+                </select></label>
+                <input id="date" type="date" value="2022-06-01">
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT"/>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Курсовой проект ИСиТ 1-1 ФИТ БГТУ</p>
+        <p>Гемза Александр Владимирович</p>
+    </footer>
+</body>
+</html>

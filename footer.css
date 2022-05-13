@@ -1,0 +1,19 @@
+.footer {
+  height: 120px;
+  background-color: #fff;
+}
+
+.footer p {
+  width: 95%;
+  text-align: right;
+  line-height: 1.7;
+}
+
+.footer p {
+  color: black;
+}
+
+.footer > p {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=footer.css.map */

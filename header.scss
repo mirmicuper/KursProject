@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-wrap: wrap; /*перенос строки */
+    justify-content: space-between; /*прижимает содержимое к краям */
+    align-items: center; /*выравнивает элементы по центру на вертикальной */
+    background-color: rgba(196, 196, 196, 0.1);
+}
+.header {
+    .logo {
+    padding-left: 30px;
+}
+    .menu ul {
+    display: flex;
+    list-style: none;
+}
+
+    .menu {
+    margin-right: 100px;
+}
+    .menu ul li {
+    margin: 20px 40px;
+}
+    .menu ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}

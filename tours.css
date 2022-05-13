@@ -1,0 +1,43 @@
+body {
+    background-color: #033037;
+    color: #fff;
+}
+.second_block {
+    height: 1100px;
+    margin-left: 100px;
+}
+
+.block {
+    display: inline-flex;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgba(196, 196, 196, 0.3);
+    height: 300px;
+    width: 93%;
+}
+.second_block div img {
+    margin: 50px 50px 50px 50px;
+}
+.information {
+    display: block;
+    margin-top: 30px;
+}
+.information h2 {
+    font-size: 30px;
+}
+.information p {
+    margin-top: 30px;
+    font-size: 20px;
+    max-width: 500px;
+}
+.block a {
+    margin: 140px 0 0 50px;
+}
+[type="button"] {
+    border: 2px solid white;
+    height: 20px;
+    width: 160px;
+    background-color: #dddddd50;
+    border-radius: 10px;
+    text-align: center;
+}
