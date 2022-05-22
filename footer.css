@@ -1,19 +1,31 @@
 .footer {
   height: 120px;
+  width: auto;
   background-color: #fff;
 }
 
 .footer p {
   width: 95%;
   text-align: right;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .footer p {
   color: black;
 }
 
-.footer > p {
-  margin-top: 20px;
+.footer img {
+  width: 20px;
+  margin-left: 22px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+.footer h2 {
+  color: black;
+  position: relative;
+  top: 30px;
+  left: 70px;
 }
 /*# sourceMappingURL=footer.css.map */

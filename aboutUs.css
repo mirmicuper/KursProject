@@ -1,3 +1,6 @@
+html,body{
+    overflow-x: hidden
+}
 body {
     background-color: #033037;
     color: #fff;
@@ -21,9 +24,51 @@ body {
     margin-top: 70px;
 }
 .second_block {
-    height: 700px;
+    width: 100%;
 }
 .container img {
     margin-top: 120px;
     width: 400px;
+}
+@media (max-width: 960px) {
+    .second_block h2 {
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .container img {
+        width: 70%;
+        text-align: center;
+        justify-self: center;
+    }
+    .container {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        margin-top: 50px;
+        grid-template-columns: 400px;
+        grid-template-rows: 200px 400px;
+        column-gap: 100px;
+    }
+}
+@media (max-width: 650px) {
+    .second_block h2 {
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .container img {
+        width: 70%;
+        text-align: center;
+        justify-self: center;
+    }
+    .container {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        margin-top: 50px;
+        grid-template-columns: 400px;
+        grid-template-rows: 200px 400px;
+        column-gap: 100px;
+    }
 }

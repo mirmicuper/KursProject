@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="mainPage.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="/footer.css">
     <link rel="stylesheet" href="/header.css">
-    <title>Document</title>
+    <title>Главная</title>
 </head>
 <body>
     <div class="first_block">
@@ -19,11 +20,12 @@
         </div>
         <nav class="menu">
             <ul>
-                <a href="#"><li>Главная</li></a>
-                <a href="/news.html"><li>Новости</li></a>
-                <a href="/contacts.html"><li>Контакты</li></a>
-                <a href="/aboutUs.html"><li>О нас</li></a>
-                <a href="/buyTour.html"><li>Заказать</li></a>
+                <a href="#"><li class="el" id="menu">Menu</li></a>
+                <a href="#"><li class="el">Главная</li></a>
+                <a href="/news.html"><li class="el">Новости</li></a>
+                <a href="/contacts.html"><li class="el">Контакты</li></a>
+                <a href="/aboutUs.html"><li class="el">О нас</li></a>
+                <a href="/buyTour.html"><li class="el">Заказать</li></a>
             </ul>
         </nav>
     </header>
@@ -32,10 +34,10 @@
     <div class="second_block">
         <h3>Почему стоит выбрать именно нас?</h3>
         <div class="icons">
-            <div class="icon"><a><img src="./images/Bullhorn.png" width="180">Нас знают</a></div>
-            <div class="icon"><a><img src="./images/Chat.png" width="180">Поддержка 24/7</a></div>
-            <div class="icon"><a><img src="./images/Location-check.png" width="180">Мы предлагаем лучшие места</a></div>
-            <div class="icon"><a><img src="./images/Map-location.png" width="180">Экономим время</a></div>
+            <div class="icon"><a><img src="./images/Bullhorn.png" width="180" alt="img">Нас знают</a></div>
+            <div class="icon"><a><img src="./images/Chat.png" width="180" alt="img">Поддержка 24/7</a></div>
+            <div class="icon"><a><img src="./images/Location-check.png" width="180" alt="img">Мы предлагаем лучшие места</a></div>
+            <div class="icon"><a><img src="./images/Map-location.png" width="180" alt="img">Экономим время</a></div>
         </div>
     </div>
     <div class="news_block">
@@ -45,13 +47,13 @@
                 <h2>Lidbeer</h2>
                 <p>Lidbeer отменили в 2020 году В связи с неблогополучной эпидемиологической обстоновкой</p>
             </div>
-            <div class="block">
-                <img src="/images/lidbeer.png" alt="img">
+            <div class="block" id="bl1">
+                <img src="/images/1565758214.jpg" alt="img" class="qwer">
                 <h2>Lidbeer</h2>
                 <p>Lidbeer отменили в 2021 году В связи с неблогополучной эпидемиологической обстоновкой</p>
             </div>
-            <div class="block">
-                <img src="/images/lidbeer.png" alt="img">
+            <div class="block" id="bl1">
+                <img src="/images/lidbeer7.jpg" alt="img" class="qwer">
                 <h2>Lidbeer</h2>
                 <p>Lidbeer отменили в 2022 году В связи с неблогополучной эпидемиологической обстоновкой</p>
             </div>
@@ -62,6 +64,10 @@
     </div>
     
     <footer class="footer">
+        <h2>Связаться с нами</h2>
+        <a href="#"><img src="/images/instagram-svgrepo-com.svg" alt="inst" width="20"></a>
+        <a href="#"><img src="/images/vk-svgrepo-com.svg" alt="vk"></a>
+        <a href="#"><img src="/images/youtube-svgrepo-com.svg" alt="youtube" width="20"></a>
         <p>Курсовой проект ИСиТ 1-1 ФИТ БГТУ</p>
         <p>Гемза Александр Владимирович</p>
     </footer>

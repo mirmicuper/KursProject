@@ -3,9 +3,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  /*перенос строки */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -39,10 +36,114 @@
 .header .menu ul a {
   text-transform: uppercase;
   text-decoration: none;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.header a:hover {
+  color: #b6b6b6;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+@media (min-width: 940px) {
+  ul #menu {
+    display: none;
+  }
+}
+
+@media (max-width: 940px) {
+  .header {
+    display: inline;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  ul #menu {
+    display: none;
+  }
+  .logo {
+    display: block;
+    text-align: center;
+  }
+  .header img {
+    width: 30%;
+  }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    width: 100%;
+  }
+  .menu ul {
+    width: 100%;
+    list-style: none;
+    height: auto;
+  }
+  .menu li {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .menu a {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  ul .el {
+    display: none;
+  }
+  ul #menu {
+    display: block;
+  }
+  ul:hover .el {
+    display: block;
+  }
+  .header {
+    display: block;
+    width: 100%;
+  }
+  .logo {
+    display: block;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header img {
+    width: 50%;
+  }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    width: 100%;
+  }
+  .menu ul {
+    display: block;
+    width: 100%;
+    list-style: none;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu li {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .menu a {
+    width: 100%;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=header.css.map */

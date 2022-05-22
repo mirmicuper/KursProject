@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
+html,body{
+    overflow-x: hidden
+}
 body {
     background-color: #033037;
 }

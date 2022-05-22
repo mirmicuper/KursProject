@@ -1,31 +1,123 @@
+
 .header {
     display: flex;
-    flex-wrap: wrap; /*перенос строки */
     justify-content: space-between; /*прижимает содержимое к краям */
     align-items: center; /*выравнивает элементы по центру на вертикальной */
     background-color: rgba(196, 196, 196, 0.1);
 }
+
 .header {
+    
     .logo {
-    padding-left: 30px;
+        padding-left: 30px;
 }
     .menu ul {
-    display: flex;
-    list-style: none;
+        display: flex;
+        list-style: none;
 }
-
     .menu {
-    margin-right: 100px;
+        margin-right: 100px;
 }
     .menu ul li {
-    margin: 20px 40px;
+        margin: 20px 40px;
 }
     .menu ul a {
-    text-transform: uppercase;
-    text-decoration: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition-property: color;
+        transition-duration: 0.5s;
+    }
+    a:hover {
+        color:rgb(182, 182, 182);
 }
+
 }
 a {
     text-decoration: none;
     color: #fff;
+}
+@media (min-width: 940px) {
+    ul #menu {
+        display: none;
+    }
+}
+@media (max-width: 940px) {
+    .header {
+        display: inline;
+        flex-wrap: wrap;
+    }
+    ul #menu {
+        display: none;
+    }
+    .logo {
+        display: block;
+        text-align: center;
+    }
+    .header img {
+        width: 30%;
+    }
+    .menu {
+        display: flex;
+        margin: 0;
+        width: 100%;
+    }
+    .menu ul {
+        width: 100%;
+        list-style: none;
+        height: auto;
+    }
+    .menu li {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    .menu a {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    ul .el {
+        display: none;
+    }
+    ul #menu {
+        display: block;
+    }
+    ul:hover .el {
+        display: block;
+    }
+    .header {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .header img {
+        width: 50%;
+    }
+    .menu {
+        display: flex;
+        margin: 0;
+        width: 100%;
+    }
+    .menu ul {
+        display: block;
+        width: 100%;
+        list-style: none;
+        height: auto;
+        flex-direction: column;
+    }
+    .menu li {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    .menu a {
+        width: 100%;
+        text-align: center;
+    }
 }

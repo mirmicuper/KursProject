@@ -1,3 +1,6 @@
+html,body{
+    overflow-x: hidden
+}
 body {
     background-color: #033037;
 }
@@ -9,9 +12,14 @@ body {
     width: 100%;
     height: 900px;
 }
+.qwer {
+    height: 55%;
+    border-radius: 20px;
+}
 .block {
     display: flex;
     margin-bottom: 50px;
+    border-radius: 20px;
     flex-direction: column;
     height: 420px;
     width: 30%;
@@ -26,4 +34,23 @@ body {
     color: white;
     font-size: 20px;
     margin: 20px 0 0 10px;
+}
+@media (max-width: 960px) {
+
+}
+@media (max-width: 850px) {
+    .block {
+        width: 45%;
+    }
+    .first_block {
+        height: 1550px;
+    }
+}
+@media (max-width: 650px) {
+    .block {
+        width: 85%;
+    }
+    .first_block {
+        height: 2850px;
+    }
 }

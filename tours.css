@@ -1,10 +1,14 @@
+html,body{
+    overflow-x: hidden
+}
 body {
     background-color: #033037;
     color: #fff;
 }
 .second_block {
     height: 1100px;
-    margin-left: 100px;
+    width: 100%;
+    text-align: center;
 }
 
 .block {
@@ -40,4 +44,50 @@ body {
     background-color: #dddddd50;
     border-radius: 10px;
     text-align: center;
+}
+@media (max-width: 940px) {
+    img {
+        width: 80%;
+    }
+    .second_block {
+        height: 2600px;
+    }
+    .block {
+        display: flexbox;
+        margin-top: 50px;
+        border-radius: 20px;
+        background-color: rgba(196, 196, 196, 0.3);
+        width: 93%;
+        height: 770px;
+        flex-direction: column;
+    }
+    .information {
+        display: block;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+}
+@media (max-width: 650px) {
+    img {
+        width: 80%;
+    }
+    .second_block {
+        height: 2300px;
+    }
+    .block {
+        display: flexbox;
+        margin-top: 50px;
+        border-radius: 20px;
+        background-color: rgba(196, 196, 196, 0.3);
+        width: 93%;
+        height: 680px;
+        flex-direction: column;
+    }
+    .information {
+        display: block;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
 }
